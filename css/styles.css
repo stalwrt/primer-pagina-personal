@@ -1,0 +1,132 @@
+body {
+    left: 0;
+}
+
+/* Fuentes */
+.titulo {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.subtitulos {
+    font-family: 'Urbanist', sans-serif;
+}
+.texto-titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 20px;
+}
+.texto{
+    font-family: 'Comfortaa', cursive;
+}
+h3 {
+    font-family: 'Urbanist', sans-serif;
+}
+/* Fin de fuentes */
+
+/* INICIO WAVE */
+.bg_color {
+    width: 100%;
+    height: 52%; 
+    background: #2196f3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    _background-image: url(../img/wd1.svg);
+    background-position: bottom;
+}
+/* FIN WAVE */
+
+.cabeza {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex; /* para que se posicionen horizontal y verticalmente al centro */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* esto hace que el titulo y el parrafo no esten en la misma linea, sino, en una columna, uno debajo de otro */
+    color: rgb(12, 12, 12);
+}
+
+.contenedor {
+    width: 90%;
+    border: 1px solid black;
+    max-width: 1200px;
+    overflow: hidden; /* todo lo que se salga de este contenedor se oculte */
+    margin: auto; /* centró el contenedor */
+    padding: 60px 0px;
+}
+
+.hamburguesa {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+/*
+.menu-navegacion {
+    /* aun por hacer */
+
+    .subtitulos {
+        font-size: 30px;
+    }
+
+/* Servicios */
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicios img {
+    width: 40%;
+}
+
+.lista-servicios {
+    width: 45%;
+}
+
+/* Propositos */
+
+.proposito {
+    background-color: rgb(0, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 10px;
+    height: 300px;
+    width: 1170px;
+}
+
+.tilt {
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 1361px;
+    left: 0;
+    background-image: url(../img/tilt.svg);
+    background-position: bottom;
+}
+
+.proposito img {
+    width: 300px;
+}
